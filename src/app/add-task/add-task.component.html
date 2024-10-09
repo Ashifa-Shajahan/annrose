@@ -1,0 +1,10 @@
+<div>
+    <div class="t">
+        Task :
+         <input [(ngModel)]="headingInp" id="Task" type="text"/></div>
+         {{headingInp}}
+    <div class="n">Note :
+         <input [(ngModel)]="noteInp"id="Notes" type="text"/></div>
+         {{noteInp}}
+    <button class="button" (click)="addTask()">Add TODO</button>
+</div>
